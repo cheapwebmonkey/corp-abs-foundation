@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Corporate Abstract</title>
+    <link rel="stylesheet" href="css/foundation.css" />
+    <script src="js/vendor/modernizr.js"></script>
+    <link rel="stylesheet" href="owl.carousel.2/assets/owl.carousel.css">
+    <link rel="stylesheet" href="owl.carousel.2/assets/owl.theme.green.css">
+  </head>
+  <body>
+      <!-- Sticky nav -->
+    <div class="contain-to-grid sticky">
+      <nav class="top-bar" data-topbar role="navigation">
+        <ul class="title-area">
+          <li class="name">
+            <h1><a href="#">Corporate Abstract</a></h1>
+          </li>
+    <li class="toggle-topbar menu-icon"><a href="#"><span></span></a></li>
+  </ul>
+
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <li class="active"><a href="#">Home</a></li>
+      <li class="has-dropdown">
+        <a href="#">Artists</a>
+        <ul class="dropdown">
+          <li><a href="#">Jean Salmon</a></li>
+          <li class="active"><a href="#">Active link in dropdown</a></li>
+        </ul>
+      </li>
+    </ul>
+
+    <!-- Left Nav Section -->
+    <ul class="left">
+      <li><a href="#">Gallery 23</a></li>
+    </ul>
+  </section>
+</nav>
+       </div>
+        
+    <div class="row">
+      <div class="large-12 columns, medium-12 columns, small-12 columns">
+        <div class="owl-carousel owl-theme owl-loaded">
+         
+        <div class= "item"><img src="img/blue-rises.png"></div>
+        <div class= "item"><img src="img/wedgehead2.jpg"></div>
+        <div class= "item"><img src="http://placehold.it/1170x400/42bdc2/FFFFFF" width="100%"></div>
+        <div class= "item "><img src="http://placehold.it/1170x500/42bdc2/FFFFFF"></div>
+        
+        </div>
+    </div>
+  </div>
+  
+       <!-- Page Footer -->
+    <div class="row">
+      <hr>
+      <div class="medium-4 medium-centered column">
+        <p>&copy; 2015 by Corporate Abstract</p>
+      </div>
+    </div>
+    <!-- End Page Footer -->
+    <a class="exit-off-canvas"></a>
+ 
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
+    <script src="js/foundation/foundation.topbar.js"></script>
+    <script src="owl.carousel.2/owl.navigation.js"></script>
+    <script src="owl.carousel.2/owl.carousel.js"></script>
+     <script>
+       $(document).ready(function(){
+        $('.owl-carousel').owlCarousel({
+          items:1,
+          autoHeight: true,
+          nav: true,
+          loop: true,
+          pagination: true
+
+        });
+    });
+    </script>
+      	
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
+</html>
